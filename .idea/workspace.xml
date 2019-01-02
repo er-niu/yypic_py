@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38fdc1ad-10f8-4aec-9c4d-77e782f730b8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/system.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yypic_py/conf/read_conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/yypic_py/conf/read_conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yypic_py/system.cfg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,24 +20,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="system.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yypic_py/system.cfg">
+        <entry file="file://$PROJECT_DIR$/system.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state>
+              <caret selection-end-line="24" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="system.cfg" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/system.cfg">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="read_conf.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="read_conf.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yypic_py/conf/read_conf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scrapy.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -68,6 +74,8 @@
         <option value="$PROJECT_DIR$/yypic_py/jobs/time_job.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/yypic_py/system.cfg" />
+        <option value="$PROJECT_DIR$/scrapy.cfg" />
+        <option value="$PROJECT_DIR$/yypic_py/conf/read_conf.py" />
       </list>
     </option>
   </component>
@@ -104,6 +112,12 @@
               <item name="yypic_py" type="b2602c69:ProjectViewProjectNode" />
               <item name="yypic_py" type="462c0819:PsiDirectoryNode" />
               <item name="yypic_py" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yypic_py" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yypic_py" type="462c0819:PsiDirectoryNode" />
+              <item name="yypic_py" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -174,10 +188,26 @@
       <option name="presentableId" value="Default" />
       <updated>1545727849589</updated>
     </task>
+    <task id="LOCAL-00001" summary="system config">
+      <created>1546439594602</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546439594603</updated>
+    </task>
+    <task id="LOCAL-00002" summary="system config">
+      <created>1546439696471</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546439696471</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="23" width="1400" height="801" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -189,6 +219,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -199,7 +230,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +237,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="system config" />
+    <option name="LAST_COMMIT_MESSAGE" value="system config" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/yypic_py/spiders/PictureSpider.py">
@@ -271,13 +305,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yypic_py/conf/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yypic_py/dao/picture_dao.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -422,13 +449,6 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/yypic_py/conf/read_conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yypic_py/system.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -437,7 +457,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yypic_py/conf/read_conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
