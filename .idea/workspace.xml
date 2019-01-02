@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38fdc1ad-10f8-4aec-9c4d-77e782f730b8" name="Default" comment="" />
+    <list default="true" id="38fdc1ad-10f8-4aec-9c4d-77e782f730b8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/system.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +16,31 @@
     <SUITE FILE_PATH="coverage/yypic_py$time_job.coverage" NAME="time_job Coverage Results" MODIFIED="1546417771935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yypic_py/jobs" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="system.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yypic_py/system.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="system.cfg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/system.cfg">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="read_conf.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yypic_py/conf/read_conf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -71,6 +98,11 @@
           <expand>
             <path>
               <item name="yypic_py" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yypic_py" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yypic_py" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yypic_py" type="462c0819:PsiDirectoryNode" />
               <item name="yypic_py" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -399,10 +431,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yypic_py/system.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="360">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
