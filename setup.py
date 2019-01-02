@@ -14,7 +14,7 @@ setup(
         # If any package contains *.txt or *.rst files, include them:
         '': ['*.txt', '*.rst', '*.cfg'],
         # And include any *.msg files found in the 'hello' package, too:
-        'conf': ['*.cfg'],
+        'yypic_py': ['*.cfg'],
     },
 
     # metadata for upload to PyPI
