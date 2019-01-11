@@ -88,8 +88,9 @@ DOWNLOAD_DELAY = 3
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-# 设置图片存储路径
-IMAGES_STORE = '/Users/songxiao/Pictures/wallpaper'
+# 设置图片存储路径path = /usr/local/wallpaper/
+# IMAGES_STORE = '/Users/songxiao/Pictures/wallpaper'
+IMAGES_STORE = '/usr/local/wallpaper'
 # 启动pipeline中间件
 ITEM_PIPELINES = {
     'yypic_py.pipelines.YypicPyPipeline': 300,

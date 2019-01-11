@@ -17,7 +17,7 @@ def my_job():
     date = time.strftime('%Y-%m-%d', time.localtime(time.time()))
     # 定时任务
     # 1. 根据当前日期爬取最新图片，并保存到/分类/日期/ 文件夹 2016-07-23
-    # 2. 读取文件夹图片，保存到fastfds和mysql scrapy crawl PictureSpider -a date="2019-01-08"
+    # 2. 读取文件夹图片，保存到fastfds和mysql scrapy crawl PictureSpider -a date="2019-01-09"
     # date = '2019-01-08'
     # dates = {"2019-01-08", "2019-01-09", "2019-01-10"}
     # for date in dates:
