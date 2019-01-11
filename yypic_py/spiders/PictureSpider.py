@@ -31,6 +31,7 @@ class PictureSpider(scrapy.Spider):
             "http://www.netbian.com/jianzhu/",
             "http://www.netbian.com/yingshi/",
             "http://www.netbian.com/tiyu/",
+            "http://www.netbian.com/jieri/",
             "http://www.netbian.com/junshi/"
         ]
 
@@ -99,5 +100,4 @@ class PictureSpider(scrapy.Spider):
         item = response.meta['item']
         item["img_url"] = real_link
         item["date"] = self.date
-        print(item['name'])
         yield item

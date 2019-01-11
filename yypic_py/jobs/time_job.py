@@ -17,10 +17,9 @@ def my_job():
     date = time.strftime('%Y-%m-%d', time.localtime(time.time()))
     # 定时任务
     # 1. 根据当前日期爬取最新图片，并保存到/分类/日期/ 文件夹 2016-07-23
-    # 2. 读取文件夹图片，保存到fastfds和mysql
-    # date = '2018-12-18'
-    # dates = {"2018-12-18","2018-12-19","2018-12-20","2018-12-21","2018-12-22","2018-12-23","2018-12-24","2018-12-25",
-    #          "2018-12-26","2018-12-27","2018-12-28","2018-12-29","2018-12-30","2018-12-31","2019-01-01"}
+    # 2. 读取文件夹图片，保存到fastfds和mysql scrapy crawl PictureSpider -a date="2019-01-08"
+    # date = '2019-01-08'
+    # dates = {"2019-01-08", "2019-01-09", "2019-01-10"}
     # for date in dates:
     #     p = subprocess.Popen("scrapy crawl PictureSpider -a date=" + date + "", shell=True, stdout=subprocess.PIPE)
     #
@@ -28,7 +27,6 @@ def my_job():
     #     p.wait()
     #     print("waiting ...the scrapy excute done: %s", time.localtime(time.time()))
     #
-    #     # scan_pic_day.scan_day_picture(date)
     #     scan_upload_day.upload_pic(date)
 
     p = subprocess.Popen("scrapy crawl PictureSpider -a date=" + date + "", shell=True, stdout=subprocess.PIPE)
