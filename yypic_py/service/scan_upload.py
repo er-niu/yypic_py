@@ -64,7 +64,7 @@ for type_name in dirs:
         print('success to insert picture id:%s title： %s', pic_id, title)
 
         # 上传原图到cos
-        url = upload_cos(type_path, file_name, pic_id)
+        url = upload_cos(type_path, file_name, pic_id, pic_type)
         if url == 'error':
             print('failed to upload_cos big picture')
             continue
@@ -74,7 +74,7 @@ for type_name in dirs:
         if os.path.exists(small_pic_path) is False:
             picture_util.img_zip(type_path, file_name)
 
-        small_url = upload_cos(type_path + 'small/', file_name, 'small/' + str(pic_id))
+        small_url = upload_cos(type_path + 'small/', file_name, 'small/' + str(pic_id), pic_type)
         if small_url == 'error':
             print('failed to upload_cos small picture')
             continue

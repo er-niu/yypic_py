@@ -18,9 +18,9 @@ config = CosConfig(Region=region, SecretId=secret_id, SecretKey=secret_key, Toke
 client = CosS3Client(config)
 
 
-def upload_cos(path, file_name, pic_id):
+def upload_cos(path, file_name, pic_id, pic_type):
     try:
-        pic_name = str(pic_id) + '.' + file_name.split('.')[1]
+        pic_name = str(pic_id) + "_" + str(pic_type) + '.' + file_name.split('.')[1]
         with open(path + file_name, 'rb') as fp:
             response = client.put_object(
                 Bucket='yypic-1256975408',

@@ -5,11 +5,13 @@ from fdfs_client.client import *
 from yypic_py.conf import read_conf
 
 connection = pymysql.connect(host=read_conf.get_conf('mysql', 'host'),
+                             port=int(read_conf.get_conf('mysql', 'port')),
                              user=read_conf.get_conf('mysql', 'user'),
                              password=read_conf.get_conf('mysql', 'password'),
                              db=read_conf.get_conf('mysql', 'db'),
                              charset=read_conf.get_conf('mysql', 'charset'),
                              cursorclass=pymysql.cursors.DictCursor)
+
 
 # client = Fdfs_client('D:\Program Files\Python2.7\client.conf')
 # client = Fdfs_client(read_conf.get_conf('fastdfs', 'client_path'))
