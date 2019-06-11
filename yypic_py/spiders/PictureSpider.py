@@ -43,7 +43,7 @@ class PictureSpider(scrapy.Spider):
         type = response.url.split("/")[-2]
         page_urls = []
         page_urls.append(response.url)
-        page_num = 6
+        page_num = 3
         # 将每页的url放入数组
         # if type == 'meinv':
         #     pass
